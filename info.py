@@ -17,7 +17,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'TheRockers2filetolinkbot')
+SESSION = environ.get('SESSION', 'TheRockers2filetolink')
 API_ID = int(environ.get('API_ID', '7272529'))
 API_HASH = environ.get('API_HASH', '68532ee254128bd6f169a1b32bde7db5')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7265421555:AAG-K7Z1sTVx10O5AGOhLuYXDxUyLvJ7FTQ")
